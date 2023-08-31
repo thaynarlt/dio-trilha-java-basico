@@ -1,20 +1,22 @@
+//Importando o Scanner
 import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) {
+        //Uso do Scanner
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Por favor, digite o número da Agência !");
+        System.out.println("Por favor, digite o número da Agência: ");
         String agencia = scanner.nextLine();
 
-        System.out.println("Por favor, digite o número da Conta !");
+        System.out.println("Por favor, digite o número da Conta: ");
         int numero = scanner.nextInt();
-        scanner.nextLine(); // Consumir a nova linha pendente após nextInt()
+        scanner.nextLine();
 
-        System.out.println("Por favor, digite o nome do Cliente !");
+        System.out.println("Por favor, digite o nome do Cliente: ");
         String nomeCliente = scanner.nextLine();
 
-        System.out.println("Por favor, digite o saldo da Conta !");
+        System.out.println("Por favor, digite o saldo da Conta: ");
         double saldo = scanner.nextDouble();
 
         // Fechando o Scanner após o uso
