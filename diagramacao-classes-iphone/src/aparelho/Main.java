@@ -13,9 +13,9 @@ public class Main {
         ReprodutorMusical reprodutor = new ReprodutorMusical();
 
         // Adiciona músicas ao reprodutor
-        reprodutor.adicionarMusica(new Musica("Ainda bem", "Marília Mendonça", "Graveto", 250));
-        reprodutor.adicionarMusica(new Musica("Esquece", "Ludmilla", "Hello Mundo", 200));
-        reprodutor.adicionarMusica(new Musica("Pare de me olhar assim", "Anitta", "Versions of Me", 150));
+        reprodutor.adicionarMusica(new Musica("Pretty When You Cry", "Lana Del Rey", "Ultraviolence (Deluxe)", 250));
+        reprodutor.adicionarMusica(new Musica("The End Of Love", "Florence + The Machine", "High As Hope", 200));
+        reprodutor.adicionarMusica(new Musica("evermore (feat. Bon Iver)", "Taylor Swift", "evermore", 150));
 
         // Toca a primeira música
         reprodutor.tocarMusica(0);
